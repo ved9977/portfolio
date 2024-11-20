@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ved Portfolio</title>
+    <style>
+    
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            position: relative;
+            text-align: center;
+            color: #fff;
+            background: linear-gradient(135deg, #8a61b6, #849dca);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+                   }
+        header h1 {
+            font-size: 4rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+           
+        }
+        header p {
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+        nav {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+          
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 1.1rem;
+ 
+        }
+        nav a:hover {
+            color: #ffdb58;
+        }
+
+       
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .about, .skills, .projects {
+            background: #f4f4f4;
+            margin: 20px 0;
+        }
+        .skills ul, .projects ul {
+            list-style: none;
+            margin: 20px auto;
+            padding: 0;
+            max-width: 800px;
+        }
+        .skills li, .projects li {
+            background: #fff;
+            margin: 10px 0;
+            padding: 15px;
+        
+            border-radius: 5px;
+            
+        }
+        .skills li:hover, .projects li:hover {
+          
+        }
+
+        /* Contact Section */
+        form input, form textarea {
+            width: 90%;
+            margin: 10px auto;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        
+
+      
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div>
+            <h1>Hello, I'm VEDANT MEENA</h1>
+            <p>Web Developer | Designer | Creator</p>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I’m Vedant meena, a passionate engineering with expertise in web development. I create innovative, user-friendly solutions using technologies like HTML, CSS. Dedicated to learning and growth, I bring creativity and precision to every project I tackle..</p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>AI,</li>
+                    </ul>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Portfolio Website</strong> - A personal portfolio showcasing my projects and skills.</li>
+            <li><strong>E-Commerce Platform</strong> - A full-stack application for an online store.</li>
+            <li><strong>Task Manager</strong> - A productivity tool for managing tasks efficiently.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Vedant meena. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
